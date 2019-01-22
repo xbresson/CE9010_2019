@@ -1,0 +1,6 @@
+*~
+.DS_Store
+tutorials/.ipynb_checkpoints/
+tutorials/.DS_Store/
+tutorials/__pycache__/
+

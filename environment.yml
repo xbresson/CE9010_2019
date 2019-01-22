@@ -1,0 +1,25 @@
+# Xavier Bresson
+
+name: CE9010_2019
+
+
+channels:
+  
+  - pytorch
+
+dependencies:
+
+  # basic
+  - git
+  - python=3.6
+  - numpy
+  - mkl
+  - ipython
+  - jupyter
+  - scipy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - networkx
+  - Pillow
+
