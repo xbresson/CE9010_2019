@@ -26,7 +26,7 @@
 Follow the following instructions to install Miniconda and create a Python environment for the course:
 
 1. Download the Python 3.6 installer for Windows, macOS, or Linux from <https://conda.io/miniconda.html> and install with default settings. Note for Windows: If you don't know if your operating system is 32-bit or 64-bit, then open Settings-System-About-System type to find out your xx-bit system.
-   * Windows: Double-click on the `Miniconda3-latest-MacOSX-x86_64.exe` file. 
+   * Windows: Double-click on the `Miniconda3-latest-Windows-x86_64.exe` file. 
    * macOS: Run `bash Miniconda3-latest-MacOSX-x86_64.sh` in your terminal.
    * Linux: Run `bash Miniconda3-latest-Linux-x86_64.sh` in your terminal.
 1. Windows: Open the Anaconda Prompt terminal from the Start menu. MacOS, Linux: Open a terminal.
@@ -37,6 +37,7 @@ Follow the following instructions to install Miniconda and create a Python envir
 
 
    Notes: <br>
+      Alternative way to download conda. Open a terminal and type `curl -o ~/miniconda.sh -O https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh` for Linux, `curl -o ~/miniconda.sh -O https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh` for MacOS and `curl -o ~/miniconda.sh -O https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86_64.exe` for Windows. 
       The installed conda packages can be listed with `conda list`.<br>
       Some useful Conda commands are `pwd`, `cd`, `ls -al`, `rm -r -f folder/`<br>
       Add a python library to the Python environment: `conda install -n CE9010_2019 numpy` (for example)<br>
