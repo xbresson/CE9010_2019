@@ -37,7 +37,7 @@ Follow the following instructions to install Miniconda and create a Python envir
 
 
    Notes: <br>
-      Alternative way to download conda. Open a terminal and type `curl -o ~/miniconda.sh -O https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh` for Linux, `curl -o ~/miniconda.sh -O https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh` for MacOS and `curl -o ~/miniconda.sh -O https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86_64.exe` for Windows. 
+      Direct link to conda is `https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh` for Linux, `https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh` for MacOS and `https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86_64.exe` for Windows. <br>
       The installed conda packages can be listed with `conda list`.<br>
       Some useful Conda commands are `pwd`, `cd`, `ls -al`, `rm -r -f folder/`<br>
       Add a python library to the Python environment: `conda install -n CE9010_2019 numpy` (for example)<br>
